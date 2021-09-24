@@ -32,7 +32,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/No3Hasil.png" width="800">  
 ### 4. Temukan paket mysql yang mengandung perintah query select!  
 **Display filter:**  
-`mysql.query matches select`
+`mysql.query matches select`  
 <img src="Screenshot/No4_select.png" width="800">
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
@@ -43,9 +43,9 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 ->kemudian mendapat informasi username dan password
 <img src="Screenshot/hasil-filter-no-5.png" width="800">
 
-->Username: "akakanomi"
+->Username: `akakanomi`
 
-->Password: "pemisah4lautan"
+->Password: `pemisah4lautan`
 
 ->Login ke portal.ichimarumaru.tech kemudian mengikuti perintahnya
 <img src="Screenshot/Lanjutan-no-5.png" width="800">
@@ -59,9 +59,9 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 ```ftp.request.command == "PASS"```
 <img src="Screenshot/pass-no-6.png" width="800">
 
-->Username: “secretuser”
+->Username: `secretuser`
 
-->Password: “aku.pengen.pw.aja”
+->Password: `aku.pengen.pw.aja`
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 **Display Filter:**
@@ -111,7 +111,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/ascii-no-10.jpg" width="800"> 
 
 -> lalu **Display Filter:** 
-'''ftp-data.command contains "bukanapaapa.txt"'''
+```ftp-data.command contains "bukanapaapa.txt"```
 <img src="Screenshot/hasil-filter-2-no-10.jpg" width="800"> 
 
 -> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
