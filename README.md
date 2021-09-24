@@ -69,7 +69,7 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 -> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
 <img src="Screenshot/tcp-stream-2-no-10.jpg" width="800"> 
 
--> follopasswordnya adalah d1b1langbukanapaapajugagapercaya
+-> Pada bagian line-based terdapat tulisan d1b1langbukanapaapajugagapercaya yang merupakan passwordnya
 <img src="Screenshot/pass-no-10.jpg" width="800"> 
 
 -> lalu saat dimasukkan passwordnya ke file Wanted.pdf
