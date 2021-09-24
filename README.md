@@ -35,7 +35,7 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 ### 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 **Display Filter:**
 ```ftp.request.command == RETR```
-<img src="screenshot/hasil-filter-no-8.jpg" width="800"> 
+<img src="Screenshot/hasil-filter-no-8.jpg" width="800"> 
 
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 **Display Filter:**
