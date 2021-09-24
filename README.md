@@ -22,6 +22,15 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 ```http.authbasic```
 <img src="Screenshot/hasil-filter-no-2.jpg" width="800">
 
+### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+Username dan password didapatkan menggunakan 
+**Display Filter:**
+```http.host contains "basic.ichimarumaru.tech"```
+<img src="Screenshot/No3Pass_uname.png" width="800">
+Username: `kuncimenujulautan`
+password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
+<img src="Screenshot/No3Hasil.png" width="800">
+
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
 **Display Filter:**
 ```mysql``` 
@@ -110,11 +119,3 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 -> lalu saat dimasukkan passwordnya ke file Wanted.pdf
 <img src="Screenshot/pdf-no-10.jpg" width="800"> 
 
-### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
-**Capture Filter:**
-```src port 80```
-<img src="Screenshot/hasil-filter-no-11.png" width="800"> 
-
-**Hasil**
-
-<img src="Screenshot/hasil-filter-2-no-11.png" width="800"> 
