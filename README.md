@@ -110,3 +110,11 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 -> lalu saat dimasukkan passwordnya ke file Wanted.pdf
 <img src="Screenshot/pdf-no-10.jpg" width="800"> 
 
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+**Capture Filter:**
+```src port 80```
+<img src="Screenshot/hasil-filter-no-11.png" width="800"> 
+
+**Hasil**
+
+<img src="Screenshot/hasil-filter-2-no-11.png" width="800"> 
