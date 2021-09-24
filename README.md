@@ -37,6 +37,19 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 ->Login ke portal.ichimarumaru.tech kemudian mengikuti perintahnya
 <img src="Screenshot/Lanjutan-no-5.png" width="800">
 
+### 6. Cari username dan password ketika melakukan login ke FTP Server!
+**Display Filter:**
+```ftp.request.command == "USER"```
+<img src="Screenshot/user-no-6.png" width="800">
+
+**Display Filter:**
+```ftp.request.command == "PASS"```
+<img src="Screenshot/pass-no-6.png" width="800">
+
+->Username: “secretuser”
+
+->Password: “aku.pengen.pw.aja”
+
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 **Display Filter:**
 ```ftp-data contains "Real.pdf"```
