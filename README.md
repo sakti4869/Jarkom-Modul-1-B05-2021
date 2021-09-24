@@ -32,3 +32,16 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 -> kemudian saat dibuka filenya akan menampilkan halaman berikut
 <img src="Screenshot/pdf-no-7.jpg" width="800"> 
 
+### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+**Display Filter:**
+```ftp-data.command contains "secret.zip"```
+<img src="Screenshot/hasil-filter-no-9.jpg" width="800"> 
+
+-> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
+<img src="Screenshot/tcp-stream-no-9.jpg" width="800"> 
+
+-> setelah itu pada bagian show data as dibuat ke RAW lalu di Save as dengan nama file "secret.zip"
+<img src="Screenshot/save-as-no-9.jpg" width="800"> 
+
+-> Ketika dibuka file zip masih ada password yang diperlukan untuk membuka pdf
+<img src="Screenshot/zip-no-9.jpg" width="800"> 
