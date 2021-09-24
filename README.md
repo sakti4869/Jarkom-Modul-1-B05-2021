@@ -24,14 +24,14 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 
 ### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!  
 Username dan password didapatkan menggunakan   
-**Display Filter:**
+**Display Filter:**  
 ```http.host contains "basic.ichimarumaru.tech"```
-<img src="Screenshot/No3Pass_uname.png" width="800">
+<img src="Screenshot/No3Pass_uname.png" width="800">  
 Username: `kuncimenujulautan`  
 password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/No3Hasil.png" width="800">  
 ### 4. Temukan paket mysql yang mengandung perintah query select!  
-**Display filter:** 
+**Display filter:**  
 `mysql.query matches select`
 <img src="Screenshot/No4_select.png" width="800">
 
@@ -123,3 +123,9 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 -> lalu saat dimasukkan passwordnya ke file Wanted.pdf
 <img src="Screenshot/pdf-no-10.jpg" width="800"> 
 
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!  
+**Capture Filter:**  
+`src port 80`  
+<img src="Screenshot/No11.png" width="800">
+**Hasil:**  
+<img src="Screenshot/No11_hasil.png" width="800">
