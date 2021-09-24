@@ -32,6 +32,11 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 -> kemudian saat dibuka filenya akan menampilkan halaman berikut
 <img src="Screenshot/pdf-no-7.jpg" width="800"> 
 
+### 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+**Display Filter:**
+```ftp.request.command == RETR```
+<img src="screenshot/hasil-filter-no-8.jpg" width="800"> 
+
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 **Display Filter:**
 ```ftp-data.command contains "secret.zip"```
@@ -45,3 +50,28 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 
 -> Ketika dibuka file zip masih ada password yang diperlukan untuk membuka pdf
 <img src="Screenshot/zip-no-9.jpg" width="800"> 
+
+### 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
+**Display Filter:**
+```ftp-data.command contains "history.txt"```
+<img src="Screenshot/hasil-filter-no-10.jpg" width="800"> 
+
+-> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
+<img src="Screenshot/tcp-stream-no-10.jpg" width="800"> 
+
+-> Pada bagian line-based terdapat tulisan seperti key= “bukanapaapa.txt” 
+<img src="Screenshot/ascii-no-10.jpg" width="800"> 
+
+-> lalu **Display Filter:** 
+'''ftp-data.command contains "bukanapaapa.txt"'''
+<img src="Screenshot/hasil-filter-2-no-10.jpg" width="800"> 
+
+-> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
+<img src="Screenshot/tcp-stream-2-no-10.jpg" width="800"> 
+
+-> follopasswordnya adalah d1b1langbukanapaapajugagapercaya
+<img src="Screenshot/pass-no-10.jpg" width="800"> 
+
+-> lalu saat dimasukkan passwordnya ke file Wanted.pdf
+<img src="Screenshot/pdf-no-10.jpg" width="800"> 
+
