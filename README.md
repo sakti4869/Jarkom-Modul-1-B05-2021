@@ -22,6 +22,21 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 ```http.authbasic```
 <img src="Screenshot/hasil-filter-no-2.jpg" width="800">
 
+### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
+**Display Filter:**
+```mysql``` 
+->lalu kemudian klik kanan pada paket yang didapat lalu dilakukan follow-> TCP stream
+
+->kemudian mendapat informasi username dan password
+<img src="Screenshot/hasil-filter-no-5.png" width="800">
+
+->Username: "akakanomi"
+
+->Password: "pemisah4lautan"
+
+->Login ke portal.ichimarumaru.tech kemudian mengikuti perintahnya
+<img src="Screenshot/Lanjutan-no-5.png" width="800">
+
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 **Display Filter:**
 ```ftp-data contains "Real.pdf"```
