@@ -126,6 +126,6 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 ### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!  
 **Capture Filter:**  
 `src port 80`  
-<img src="Screenshot/No11.png" width="800">
+<img src="Screenshot/No11.png" width="800">  
 **Hasil:**  
-<img src="Screenshot/No11_hasil.png" width="800">
+<img src="Screenshot/No11_hasil.png" width="800">  
