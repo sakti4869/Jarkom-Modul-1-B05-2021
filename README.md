@@ -1,6 +1,5 @@
 # Jarkom-Modul-1-B05-2021
-# Praktikum Modul 1
-## 20 September 2021
+# Praktikum Modul 1 20 September 2021
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 **Display Filter:**
 ```http.host=="ichimarumaru.tech" && http.request```
