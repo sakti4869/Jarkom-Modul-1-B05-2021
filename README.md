@@ -19,12 +19,16 @@ web server yang digunakan adalah nginx/1.18.0 (Ubuntu)
 **Display Filter:**
 ```ftp-data contains "Real.pdf"```
 <img src="Screenshot/hasil-filter-no-7.jpg" width="800"> 
+
 -> lalu dapat dipilih salah satu paket kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
 <img src="Screenshot/tcp-stream-no-7.jpg" width="800"> 
+
 -> setelah itu pada bagian show data as dibuat ke RAW lalu di Save as dengan nama file misal Jarkom dengan format zip jadi "Jarkom.zip"
 <img src="Screenshot/save-as-no-7.jpg" width="800"> 
+
 -> setelah itu membuka file hasil download tersebut
-<img src="Screenshot/isi-zip-no-7.png" width="800"> 
+<img src="Screenshot/isi-zip-no-7.png" width="800">
+
 -> kemudian saat dibuka filenya akan menampilkan halaman berikut
-<img src="screenshot/pdf-no-7.jpg" width="800"> 
+<img src="Screenshot/pdf-no-7.jpg" width="800"> 
 
