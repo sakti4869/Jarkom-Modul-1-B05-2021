@@ -1,5 +1,12 @@
-# Jarkom-Modul-1-B05-2021
 # Praktikum Modul 1 20 September 2021
+## Anggota Kelompok ##
+
+Aji Wahyu Admaja Utama 05111940000073
+
+Muhammad Haikal Aria Sakti 05111940000088
+
+Ivan Muhammad Nizar 05111940000052
+
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 **Display Filter:**
 ```http.host=="ichimarumaru.tech" && http.request```
