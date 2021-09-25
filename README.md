@@ -134,6 +134,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21! 
 **Capture Filter:** 
 `port 21`
+
 <img src="Screenshot/filter-no-12.png" width="800"> 
 
 ->Buka cmd dan ```telnet my.its.ac.id 21```
