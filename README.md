@@ -140,3 +140,10 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 **Hasil** 
 
 <img src="Screenshot/hasil-filter-no-12.png" width="800"> 
+
+### 13. Filter sehingga wireshark hanya mengambil paket yang menuju port 443!  
+**Capture Filter:**  
+`dst port 443`  
+<img src="Screenshot/filter-no-13.png" width="800">  
+**Hasil:**  
+<img src="Screenshot/hasil-filter-no-13.png" width="800"> 
