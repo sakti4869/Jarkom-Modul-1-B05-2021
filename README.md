@@ -38,6 +38,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap
 **Display Filter:**
 ```mysql``` 
+
 ->lalu kemudian klik kanan pada paket yang didapat lalu dilakukan follow-> TCP stream
 
 ->kemudian mendapat informasi username dan password
