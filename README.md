@@ -133,7 +133,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21! 
 **Capture Filter:** 
-```port 21```
+`port 21`
 <img src="Screenshot/filter-no-12.png" width="800"> 
 
 ->Buka cmd dan ```telnet my.its.ac.id 21```
@@ -154,7 +154,7 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/ping-kemenag.png" width="800"> 
 
 **Capture Filter:**  
-```dst host 103.7.13.247```
+`dst host 103.7.13.247`
 <img src="Screenshot/filter-no-14.png" width="800">  
 **Hasil:**  
 <img src="Screenshot/hasil-filter-no-14.png" width="800"> 
@@ -164,7 +164,9 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/ipconfig.png" width="800"> 
 
 **Capture Filter:**  
-```src host 192.168.43.18```
+`src host 192.168.43.18`
+
 <img src="Screenshot/filter-no-15.png" width="800">  
+
 **Hasil:**  
 <img src="Screenshot/hasil-filter-no-15.png" width="800"> 
