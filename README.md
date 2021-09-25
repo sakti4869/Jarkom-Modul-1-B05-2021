@@ -155,7 +155,9 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 
 **Capture Filter:**  
 `dst host 103.7.13.247`
+
 <img src="Screenshot/filter-no-14.png" width="800">  
+
 **Hasil:**  
 <img src="Screenshot/hasil-filter-no-14.png" width="800"> 
 
