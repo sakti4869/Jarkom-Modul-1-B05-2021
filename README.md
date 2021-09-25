@@ -157,3 +157,13 @@ password: `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 <img src="Screenshot/filter-no-14.png" width="800">  
 **Hasil:**  
 <img src="Screenshot/hasil-filter-no-14.png" width="800"> 
+
+### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+->Buka cmd dan ```ipconfig``` untuk cek berapa ip address kita
+<img src="Screenshot/ipconfig.png" width="800"> 
+
+**Capture Filter:**  
+```src host 192.168.43.18```
+<img src="Screenshot/filter-no-15.png" width="800">  
+**Hasil:**  
+<img src="Screenshot/hasil-filter-no-15.png" width="800"> 
